@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Settings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar-icon active">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <rect x="3" y="3" width="8" height="8" fill="currentColor" rx="2"/>
+                <rect x="13" y="3" width="8" height="8" fill="currentColor" rx="2"/>
+                <rect x="3" y="13" width="8" height="8" fill="currentColor" rx="2"/>
+                <rect x="13" y="13" width="8" height="8" fill="currentColor" rx="2"/>
+            </svg>
+        </div>
+        <div class="sidebar-icon">⏱️</div>
+        <div class="sidebar-icon">⚙️</div>
+        <div class="sidebar-icon">💬</div>
+        <div class="sidebar-icon">🔧</div>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <div class="welcome">
+                <h1>Welcome, Amanda</h1>
+                <p>Tue, 07 June 2022</p>
+            </div>
+            <div class="header-actions">
+                <div class="search-box">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="notification-icon">🔔</div>
+                <div class="profile-avatar">
+                    <img src="./img/from dexter.jpeg" alt="Avatar">
+                </div>
+            </div>
+        </div>
+
+        <div class="banner"></div>
+
+        <div class="profile-section">
+            <div class="profile-info">
+                <div class="profile-pic">
+                    <img src="./img/Brian Moser Christmas.jpeg" alt="Profile Photo">
+                </div>
+                <div class="profile-details">
+                    <h2>Alexa Rawles</h2>
+                    <p>alexarawles@gmail.com</p>
+                </div>
+            </div>
+            <button class="edit-btn">Edit</button>
+        </div>
+
+        <div class="form-grid">
+            <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" placeholder="Your First Name">
+            </div>
+            <div class="form-group">
+                <label>Nick Name</label>
+                <input type="text" placeholder="Your First Name">
+            </div>
+            <div class="form-group">
+                <label>Gender</label>
+                <select>
+                    <option>Your First Name</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Country</label>
+                <select>
+                    <option>Your First Name</option>
+                    <option>United States</option>
+                    <option>United Kingdom</option>
+                    <option>Canada</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Language</label>
+                <select>
+                    <option>Your First Name</option>
+                    <option>English</option>
+                    <option>Spanish</option>
+                    <option>French</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Time Zone</label>
+                <select>
+                    <option>Your First Name</option>
+                    <option>GMT-5 (EST)</option>
+                    <option>GMT+0 (UTC)</option>
+                    <option>GMT+1 (CET)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="email-section">
+            <h3>My email Address</h3>
+            <div class="email-item">
+                <div class="email-icon">📧</div>
+                <div class="email-details">
+                    <p>alexarawles@gmail.com</p>
+                    <span>1 month ago</span>
+                </div>
+            </div>
+            <button class="add-email-btn">+Add Email Address</button>
+        </div>
+    </div>
+</body>
+</html>
